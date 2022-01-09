@@ -1,0 +1,160 @@
+NOMBRE DEL DOMINIO
+--------------------------------------
+homesweethomevillas
+
+PROYECTO VILLAS
+--------------------------------------
+01.- url personalizables
+02.- creación base de datos
+03.- integración con avantio
+04.- creación de la web
+05.- varios idiomas
+
+
+ALVARO VARAS
+--------------------------------------
+Email: avarasab@gmail.com
+Teléfono: 629 81 89 56
+LinkedIn: https://www.linkedin.com/in/%C3%A1lvaro-varas-abril-858a66106/
+
+
+ALBA ALVAREZ
+-------------------------------------
+Email: aalvarez2678@gmail.com
+Teléfono:
+LinkedIn: 
+
+
+
+https://docs.google.com/document/d/1WIprazDFGXK7P26SpuTMYXlryODk65bnQvuTWUobRew/edit?usp=sharing_eip&ts=6091325b
+
+
+
+TABLA AVANTIO ACOMMODATIONS
+-------------------------------------
+id int(11) PK 
+text_title varchar(255) 
+text_referencia varchar(45) 
+text_userid varchar(75) 
+text_company varchar(75) 
+number_companyid int(10) UN 
+text_numero_registro_turistico varchar(255) 
+avantio_occupation_rules int(11) UN 
+avantio_pricemodifiers int(11) UN 
+avantio_gallery int(11) UN 
+dynamic_taxonomy int(11) 
+dynamic_geocountry int(11) 
+dynamic_georegion int(11) 
+dynamic_geocity int(11) 
+dynamic_geolocality int(11) 
+dynamic_geodistrict int(11) 
+text_geo_cp text 
+text_geo_tipo_calle varchar(20) 
+text_geo_calle varchar(255) 
+text_geo_numero varchar(20) 
+text_geo_bloque varchar(20) 
+text_geo_puerta varchar(20) 
+text_geo_piso varchar(20) 
+text_geo_latitud varchar(45) 
+text_geo_longitud varchar(45) 
+number_geo_zoom smallint(5) UN 
+number_unidades smallint(11) UN 
+number_capacidad_maxima int(11) UN 
+number_capacidad_minima int(11) UN 
+number_habitaciones int(11) UN 
+number_camas_doble int(11) UN 
+number_camas_individual int(11) UN 
+number_sofas_cama int(11) UN 
+number_sofas_cama_doble int(11) UN 
+number_literas int(11) UN 
+number_aseos int(11) UN 
+number_banyos_banyera int(11) UN 
+number_banyos_ducha int(11) UN 
+number_metros_cuadrados int(11) UN 
+number_metros_cuadrados_utiles int(11) UN 
+number_metros_cuadrados_construidos int(11) UN 
+number_metros_cuadrados_terraza int(11) UN 
+number_cocinas int(11) UN 
+number_fan int(11) 
+checkbox_grups tinyint(4) UN 
+checkbox_piscina tinyint(4) UN 
+text_tipo_piscina varchar(255) 
+checkbox_tv tinyint(4) UN 
+checkbox_jardin tinyint(4) UN 
+checkbox_muebles_jardin tinyint(4) UN 
+checkbox_plancha tinyint(4) UN 
+checkbox_chimenea tinyint(4) UN 
+checkbox_barbacoa tinyint(4) UN 
+checkbox_radio tinyint(4) UN 
+checkbox_minibar tinyint(4) UN 
+checkbox_terraza tinyint(4) UN 
+checkbox_parcela_vallada tinyint(4) UN 
+checkbox_caja_seguridad tinyint(4) UN 
+checkbox_ascensor tinyint(4) UN 
+checkbox_dvd tinyint(4) UN 
+checkbox_balcon tinyint(4) UN 
+checkbox_exprimidor tinyint(4) UN 
+checkbox_hervidor_electrico tinyint(4) UN 
+checkbox_secador_pelo tinyint(4) UN 
+checkbox_zona_ninos tinyint(4) UN 
+checkbox_gimnasio tinyint(4) UN 
+checkbox_alarma tinyint(4) UN 
+checkbox_tennis tinyint(4) UN 
+checkbox_squash tinyint(4) UN 
+checkbox_paddel tinyint(4) UN 
+checkbox_sauna tinyint(4) UN 
+checkbox_jacuzzi tinyint(4) UN 
+checkbox_apta_discapacitados tinyint(4) UN 
+checkbox_fumadores tinyint(4) UN 
+text_cocina_clase varchar(75) 
+text_cocina_tipo varchar(75) 
+text_orientacion varchar(75) 
+checkbox_nevera tinyint(4) UN 
+checkbox_congelador tinyint(4) UN 
+checkbox_lavavajillas tinyint(4) UN 
+checkbox_lavadora tinyint(4) UN 
+checkbox_secadora tinyint(4) UN 
+checkbox_cafetera tinyint(4) UN 
+checkbox_tostadora tinyint(4) UN 
+checkbox_microondas tinyint(4) UN 
+checkbox_horno tinyint(4) UN 
+checkbox_vajilla tinyint(4) UN 
+checkbox_utensilios_cocina tinyint(4) UN
+
+
+
+
+TABLA DYNAMIC_ROOMS
+-------------------------------------
+id int(11) PK 
+language varchar(3) PK 
+text_title varchar(255) 
+text_subtitle varchar(255) 
+number_minprecio int(11) 
+number_precio bigint(20) UN 
+checkbox_destacado int(11) 
+checkbox_venta tinyint(4) UN 
+checkbox_rentalia int(11) 
+text_2camas text 
+text_1cama_1 text 
+text_1cama_2 text 
+text_3camas text 
+text_4cama text 
+dynamic_galeriaspagina varchar(45) 
+textarea_description text 
+textarea_description_2 text 
+text_page_title varchar(125) 
+text_meta_keywords varchar(255) 
+text_meta_robots varchar(45) 
+text_meta_description varchar(255) 
+auto_slug varchar(255) 
+text_slug varchar(255) 
+status enum('ACTIVED','PAUSED') 
+position int(11) 
+textarea_scripts_header text 
+textarea_scripts_body text
+ 
+
+
+
+

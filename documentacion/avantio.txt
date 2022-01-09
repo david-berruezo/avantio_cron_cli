@@ -1,0 +1,44 @@
+CONEXIÓN
+-----------------------
+Buenas tardes David,
+
+Gracias por el tiempo dedicado en la reunión. Tal y como comentamos, te envío las credenciales del entorno test:
+
+Partner Code Feeds XML: 836efa4efbe7fa63f2ebbae30d7b965f
+
+Web Service:
+
+User: itsatentoapi_test
+Pass: testapixml
+Documentacion: https://feeds.avantio.com/doc/api_for_websites.pdf
+
+Cuando ya estas llegando al fin del desarrollo, tendremos que hacer lo que llamamos la 'Certificación', nada, cosas de protocolo, que necesitaré 
+algún tipo de acceso a la web en dev/staging simplemente para verificar que la integración se ha realizado de forma correcta y que estén 
+funcionando correctamente los web services etc. Después de este paso te pasaré el acceso a producción de la cuenta del cliente, y solo 
+tendrás que reemplazar el hashcode y el login en tu integración para empezar a recibir los alojamientos etc de la cuenta real. Sí aquí tienes que 
+hacer algún 'retoque' en la integración, no pasa nada, hasta que tú tengas todo listo para publicar la web no vamos 'live'.Lo dicho, se que ya 
+controlas este tema y nuestra API. Pero cualquier pregunta, no dudes en contactar conmigo, estoy aquí para echarte un cable si te hace falta 
+durante el desarrollo.Vamos hablando, un saludo!
+
+
+
+FICHEROS
+-----------------------
+accommodations.xml
+availabilities.xml
+descriptions.xml
+geographicareas.xml
+kinds.xml
+occupationrules.xml
+pricemodifiers.xml
+rates.xml
+services.xml
+
+
+
+CRUD METHODS
+-----------------------
+01.- sql
+02.- query builder
+	02.1.- get
+	02.2.- 

@@ -1,0 +1,6 @@
+
+Documentación
+---------------------------
+01.- https://onlinewebtutorblog.com/working-with-codeigniter-4-model-and-entity/			(CRUD MODELOS Y ENTIDADES)
+02.- https://onlinewebtutorblog.com/create-custom-spark-console-command-in-codeigniter-4/		(SPARK COMANDOS)
+03.- https://onlinewebtutorblog.com/crud-operation-in-codeigniter-4-tutorial/				(SIMPLE CRUD)
