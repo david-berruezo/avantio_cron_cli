@@ -1,9 +1,9 @@
-# CodeIgniter 4 Application Starter
+# Avantio WS Websites CronJob Application
 
-## What is CodeIgniter?
+## What is Avantio WS Websites CronJob Application?
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](http://codeigniter.com).
+Avantio WS Websites CronJob Application is a cli and web application to connect to avantio websites webservices
+More information can be found at the [official site](https://feeds.avantio.com/doc/api_for_websites.pdf).
 
 This repository holds a composer-installable app starter.
 It has been built from the
