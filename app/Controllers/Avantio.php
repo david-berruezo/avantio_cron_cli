@@ -532,44 +532,7 @@ class Avantio extends Controller
 
         # data
         if(empty($avantio_credentials))
-            if($mode == "test"){
-                $avantio_credentials = array(
-                    'PARTNER_CODE'		        => '836efa4efbe7fa63f2ebbae30d7b965f',
-                    'WEBSERVICE_USER' 	        => 'itsatentoapi_test',
-                    'WEBSERVICE_PWD'	        => 'testapixml',
-                    'URL_FEEDS'                 => 'http://feeds.itsolutions.es/',
-                    'DELETE_TIME'               => 2*60*60, //2h
-                    'ACTIVED_LANGUAGES'         => $language->getAll(),
-                    'INSERT_COUNT'              => 1000,
-                    'INSERT_COUNT_IMAGES'       => 25,
-                    'MAP_DAYS'                  => array ('MONDAY'=>1,'TUESDAY'=>2,'WEDNESDAY'=>3,'THURSDAY'=>4,'FRIDAY'=>5,'SATURDAY'=>6,'SUNDAY'=>7),
-                );
-            }else if ($mode == "home_sweet_home"){
-                $avantio_credentials = array(
-                    'PARTNER_CODE'		        => 'b552a46e9ec985203668eebe7ab7879b',
-                    'WEBSERVICE_USER' 	        => 'home_sweet_home',
-                    'WEBSERVICE_PWD'	        => 'pWZP6HGYgCWxg6vF',
-                    'URL_FEEDS'                 => 'http://feeds.itsolutions.es/',
-                    'DELETE_TIME'               => 2*60*60, //2h
-                    'ACTIVED_LANGUAGES'         => $language->getAll(),
-                    'INSERT_COUNT'              => 1000,
-                    'INSERT_COUNT_IMAGES'       => 25,
-                    'MAP_DAYS'                  => array ('MONDAY'=>1,'TUESDAY'=>2,'WEDNESDAY'=>3,'THURSDAY'=>4,'FRIDAY'=>5,'SATURDAY'=>6,'SUNDAY'=>7),
-                );
-            }else if ($mode == "portvil") {
-                $avantio_credentials = array(
-                    'PARTNER_CODE' => 'e480d448c95133936e775d35977bab04',
-                    'WEBSERVICE_USER' => 'portvil_villas',
-                    'WEBSERVICE_PWD' => 'Portvil_villas21+',
-                    'URL_FEEDS' => 'http://feeds.itsolutions.es/',
-                    'DELETE_TIME' => 2 * 60 * 60, //2h
-                    'ACTIVED_LANGUAGES' => $language->getAll(),
-                    'INSERT_COUNT' => 1000,
-                    'INSERT_COUNT_IMAGES' => 25,
-                    'MAP_DAYS' => array('MONDAY' => 1, 'TUESDAY' => 2, 'WEDNESDAY' => 3, 'THURSDAY' => 4, 'FRIDAY' => 5, 'SATURDAY' => 6, 'SUNDAY' => 7),
-                );
-            }// end if
-
+            
 
         $this->avantio_credentials = $avantio_credentials;
 
